@@ -1,0 +1,20 @@
+/*
+ * Huffman.cpp
+ *
+ *  Created on: Feb 11, 2017
+ *      Author: zeqingzhang
+ */
+#include "Huffman.h"
+using namespace std;
+using namespace hw05;
+
+void Huffman::addTree(const BinaryTree& tree){
+
+}
+
+
+
+
+BinaryTree Huffman::applyHuffman(){
+
+}

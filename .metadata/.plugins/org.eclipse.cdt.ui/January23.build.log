@@ -1,0 +1,7 @@
+12:57:20 **** Clean-only build of configuration Debug for project January23 ****
+make clean 
+rm -rf  ./src/Main.o ./src/MedianWord.o  ./src/Main.d ./src/MedianWord.d  January23
+ 
+
+12:57:20 Build Finished (took 78ms)
+

@@ -1,0 +1,16 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:January26,org.eclipse.launchbar.core.descriptorType.default\:January26 (1),org.eclipse.launchbar.core.descriptorType.default\:hw03,org.eclipse.launchbar.core.descriptorType.default\:January30,org.eclipse.launchbar.core.descriptorType.default\:hw04,org.eclipse.launchbar.core.descriptorType.default\:hw05
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:January23/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:January23/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:January30/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SampleCpp\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SampleCpp\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:hw01/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:hw01/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:hw02/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:hw02/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:hw03/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:hw03/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:hw04/activeLaunchMode=run

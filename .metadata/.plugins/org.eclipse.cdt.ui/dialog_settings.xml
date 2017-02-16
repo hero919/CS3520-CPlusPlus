@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Default C++ source template" key="LastUsedSourceTemplate"/>
+	<item value="Default C++ header template" key="LastUsedHeaderTemplate"/>
+	<section name="org.eclipse.cdt.ui.OPEN_ACTION_SELECTION_DIALOG_SECTION">
+		<item value="382" key="DIALOG_WIDTH"/>
+		<item value="1|.SF NS Text|11.0|0|COCOA|1|.SFNSText" key="DIALOG_FONT_NAME"/>
+		<item value="375" key="DIALOG_HEIGHT"/>
+		<item value="449" key="DIALOG_X_ORIGIN"/>
+		<item value="108" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="NewClassWizardPage">
+		<item value="false" key="stubSelected1"/>
+		<item value="true" key="stubVirtual1"/>
+		<item value="false" key="namespaceSelected"/>
+		<item value="false" key="stubInline0"/>
+		<item value="false" key="stubInline1"/>
+		<item value="" key="namespace"/>
+		<item value="false" key="testFileSelected"/>
+		<item value="false" key="stubSelected0"/>
+	</section>
+	<section name="org.eclipse.cdt.internal.ui.wizards.classwizard.NamespaceSelectionDialogSettings">
+		<item value="false" key="show_enums"/>
+		<item value="false" key="show_unions"/>
+		<item value="false" key="show_macros"/>
+		<item value="false" key="show_classes"/>
+		<item value="false" key="show_functions"/>
+		<item value="false" key="show_lowlevel"/>
+		<item value="true" key="show_namespaces"/>
+		<item value="false" key="show_enumerators"/>
+		<item value="false" key="show_structs"/>
+		<item value="501" key="x"/>
+		<item value="383" key="width"/>
+		<item value="161" key="y"/>
+		<item value="false" key="show_typedefs"/>
+		<item value="false" key="show_variables"/>
+		<item value="538" key="height"/>
+	</section>
+	<section name="completion_proposal_size">
+	</section>
+</section>

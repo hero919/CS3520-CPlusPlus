@@ -1,0 +1,20 @@
+16:26:08 **** Incremental Build of configuration Debug for project hw05 ****
+make all 
+Building file: ../src/BinaryTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/BinaryTree.d" -MT"src/BinaryTree.o" -o "src/BinaryTree.o" "../src/BinaryTree.cpp"
+Finished building: ../src/BinaryTree.cpp
+ 
+Building file: ../src/Huffman.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Huffman.d" -MT"src/Huffman.o" -o "src/Huffman.o" "../src/Huffman.cpp"
+Finished building: ../src/Huffman.cpp
+ 
+Building target: hw05
+Invoking: MacOS X C++ Linker
+g++  -o "hw05"  ./src/BinaryTree.o ./src/Huffman.o ./src/Main.o   
+Finished building target: hw05
+ 
+
+16:26:11 Build Finished (took 2s.883ms)
+

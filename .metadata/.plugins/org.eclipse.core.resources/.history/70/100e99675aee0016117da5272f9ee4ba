@@ -1,0 +1,46 @@
+/*
+ * BinaryTree.h
+ *
+ *  Created on: Feb 7, 2017
+ *      Author: zeqingzhang
+ */
+
+
+#ifndef BINARYTREE_H_
+#define BINARYTREE_H_
+
+#include <string>
+#include <iostream>
+#include <stdexcept>
+#include <iterator>
+#include <vector>
+
+namespace hw04{
+/*
+ * Define a class BinaryTree which include a string text, a int weight,
+ * and a vector, if it is the leaf, the vector will be empty, else the leaf includes
+ * two BinaryTree
+ */
+class BinaryTree{
+
+public:
+	BinaryTree(/*Constructor includes a string text or integer weight*/
+				const std::string s, const int weight);
+
+	BinaryTree(/*Constructor includes BinaryTree left or BinaryTree right */
+				const BinaryTree& left,const BinaryTree& right);
+
+	void printTree(std::ostream& output) const;
+
+	/*Input two iterators, one starts as begin and one represents the end of the iterator */
+	std::string get(std::string::iterator&  iter, const std::string::iterator end) const;
+
+private:
+	std::string text_;
+	int weight_ = 0;
+	std::vector<BinaryTree> vector_;
+};
+}
+
+
+#endif /* BINARYTREE_H_ */

@@ -1,0 +1,7 @@
+12:57:20 **** Clean-only build of configuration Debug for project JanuaryNineteen ****
+make clean 
+rm -rf  ./src/JanuaryNineteen.o ./src/Truth.o  ./src/JanuaryNineteen.d ./src/Truth.d  JanuaryNineteen
+ 
+
+12:57:20 Build Finished (took 89ms)
+

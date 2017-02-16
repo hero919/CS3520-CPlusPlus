@@ -1,0 +1,39 @@
+/*
+ * BinaryTree.h
+ *
+ *  Created on: Feb 7, 2017
+ *      Author: zeqingzhang
+ */
+
+
+#ifndef BINARYTREE_H_
+#define BINARYTREE_H_
+
+#include <string>
+#include <iostream>
+#include <stdexcept>
+#include <iterator>
+#include <vector>
+
+namespace hw04{
+class BinaryTree{
+
+public:
+	BinaryTree(const std::string s, const int weight);
+
+	BinaryTree(const BinaryTree& left,const BinaryTree& right);
+
+	std::string printTree(std::ostream& output) const;
+
+	void get(std::string::iterator&  iter, const std::string::iterator end) const;
+
+private:
+	std::string text_;
+	int weight_ = 0;
+	std::vector<BinaryTree> vector_;
+};
+
+}
+
+
+#endif /* BINARYTREE_H_ */
