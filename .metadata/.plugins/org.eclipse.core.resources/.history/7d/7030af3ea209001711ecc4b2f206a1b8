@@ -1,0 +1,74 @@
+#include <vector>
+#include <iostream>
+#include <memory>
+#include "Musician.h"
+
+using namespace std;
+using namespace musician;
+
+/**
+ * @namespace musician1 Musicians package using
+ * managed pointers.
+ *
+ * @author Ken Baclawski
+ */
+
+/**
+ * Main program to test the Musician class using
+ * managed pointers.
+ * @return The status code.
+ */
+int main() {
+
+  // Construct some musicians: Alice, Madonna,
+  // John and Ringo.
+
+  // Fill in the missing code here...
+
+	shared_ptr<Musician> alice(make_shared<Musician>("Alice"));
+	shared_ptr<Musician> madonna(make_shared<Musician>("Madonna"));
+	shared_ptr<Musician> john(make_shared<Musician>("John"));
+	shared_ptr<Musician> ringo(make_shared<Musician>("Ringo"));
+
+  // Construct two vectors for holding shared
+  // pointers to musicians: who and what
+
+  vector<shared_ptr<Musician>> who;
+  vector<shared_ptr<Musician>> what;
+
+  // Put alice, john and ringo in who.
+  who.push_back(alice);
+  who.push_back(john);
+  who.push_back(ringo);
+
+
+
+  // Fill in the missing code here...
+
+  // Put alice and madonna in what.
+  what.push_back(alice);
+  what.push_back(ringo);
+
+  // Fill in the missing code here...
+
+  // In a loop, print the names of the musicians
+  // in who and their instruments.
+
+  // Fill in the missing code here...
+
+  for (shared_ptr<Musician> musician : who) {
+      if (musician) {
+        //cout << musician->getName() << endl;
+    	  delete musician;
+      }
+    }
+
+  for (shared_ptr<Musician> musician : what) {
+        if (musician) {
+          //cout << musician->getName() << endl;
+      	  delete musician;
+        }
+      }
+
+  return 0;
+}

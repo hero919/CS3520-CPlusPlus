@@ -1,19 +1,9 @@
-14:53:39 **** Incremental Build of configuration Debug for project Febraury06 ****
+13:22:06 **** Incremental Build of configuration Debug for project Febraury06 ****
 make all 
 Building file: ../src/Main.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
 Finished building: ../src/Main.cpp
- 
-Building file: ../src/Roster.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Roster.d" -MT"src/Roster.o" -o "src/Roster.o" "../src/Roster.cpp"
-Finished building: ../src/Roster.cpp
- 
-Building file: ../src/Student.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Student.d" -MT"src/Student.o" -o "src/Student.o" "../src/Student.cpp"
-Finished building: ../src/Student.cpp
  
 Building target: Febraury06
 Invoking: MacOS X C++ Linker
@@ -21,5 +11,5 @@ g++  -o "Febraury06"  ./src/Main.o ./src/Roster.o ./src/Student.o
 Finished building target: Febraury06
  
 
-14:53:43 Build Finished (took 4s.220ms)
+13:22:07 Build Finished (took 1s.108ms)
 

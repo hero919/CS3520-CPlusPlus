@@ -1,6 +1,6 @@
-19:07:36 **** Incremental Build of configuration Debug for project hw04 ****
+13:53:57 **** Incremental Build of configuration Debug for project hw04 ****
 make all 
 make: Nothing to be done for `all'.
 
-19:07:36 Build Finished (took 109ms)
+13:53:57 Build Finished (took 93ms)
 

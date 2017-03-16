@@ -19,8 +19,8 @@ double PList::addNumber(double number) {
 
 
 double PList::computeAverage() noexcept {
-	 double count = 0;
-	 double total = 0;
+	double count = 0;
+	double total = 0;
 	for(double num : PList::list_){
 		count++;
 		total += num;

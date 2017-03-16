@@ -48,7 +48,12 @@ int main() {
   // first name begins with "A".
 
   // Missing Code Part 4
-  auto studentsStartingWithA = [](const Student& student) { return student.getFirstName().at(0) == 'A'; };
+  auto studentsStartingWithA = [](const Student& student) {
+	  if(student.getFirstName().at(0) == 'A'){
+		  return 0;
+	  }
+	  return 1;
+  };
 
   cout << "A student average is " << roster.computeAverage(studentsStartingWithA) << endl;
 
@@ -74,7 +79,11 @@ int main() {
       }
       return true;
     };
+    try{
   roster.computeAverage(countStudents);
+    } catch (const exception& e){
+
+    }
   cout << "There are " << studentCount << " students with GPA at least 3.4" << endl;
 
   // Normal return

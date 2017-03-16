@@ -1,0 +1,15 @@
+21:24:55 **** Incremental Build of configuration Debug for project hw07 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: hw07
+Invoking: MacOS X C++ Linker
+g++  -o "hw07"  ./src/Band.o ./src/Main.o ./src/Musician.o   
+Finished building target: hw07
+ 
+
+21:24:56 Build Finished (took 731ms)
+
