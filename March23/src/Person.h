@@ -1,0 +1,58 @@
+#ifndef MUSICIAN_PERSON_H
+#define MUSICIAN_PERSON_H
+
+#include <string>
+#include <iostream>
+
+using namespace std;
+
+namespace musician {
+
+class Person;
+
+/**
+ * A person.  Each person has a name.
+ * @author Ken Baclawski
+ */
+class Person {
+public:
+  /**
+   * Construct a person.
+   */
+  Person(/** The name of the person. */
+           const std::string& name);
+
+  /**
+   * Destruct a person.
+   */
+  // Missing Code Part 1/6
+  virtual ~Person(){
+	  cout<< "Person " << name_ << " Deleted" << endl;
+  }
+
+  /**
+   * Get the name of the person.
+   * @return The person name.
+   */
+  // Missing Code Part 2/6
+  string getName(){
+	  return name_;
+  }
+
+
+  /**
+   * Get the instrument played by the person.
+   * @return The instrument.
+   */
+  // Missing Code Part 3/6
+  virtual std::string getInstrument() const noexcept;
+
+
+private:
+  /** The name of the person. */
+  const std::string name_;
+};
+
+}
+
+#endif

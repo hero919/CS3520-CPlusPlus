@@ -1,0 +1,21 @@
+12:37:13 **** Incremental Build of configuration Debug for project March23 ****
+make all 
+Building file: ../src/Musician.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Musician.d" -MT"src/Musician.o" -o "src/Musician.o" "../src/Musician.cpp"
+Finished building: ../src/Musician.cpp
+ 
+Building target: March23
+Invoking: MacOS X C++ Linker
+g++  -o "March23"  ./src/Main.o ./src/Musician.o ./src/Person.o   
+Undefined symbols for architecture x86_64:
+  "musician::Person::Person(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)", referenced from:
+      std::__1::shared_ptr<musician::Person> std::__1::shared_ptr<musician::Person>::make_shared<char const (&) [4]>(char const (&&&) [4]) in Main.o
+  "musician::Person::Person(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)", referenced from:
+      musician::Musician::Musician(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&) in Musician.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [March23] Error 1
+
+12:37:15 Build Finished (took 2s.213ms)
+

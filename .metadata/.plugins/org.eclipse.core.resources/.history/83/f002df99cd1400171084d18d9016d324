@@ -1,0 +1,30 @@
+/*
+ * City.h
+ *
+ *  Created on: Mar 28, 2017
+ *      Author: zeqingzhang
+ */
+
+#ifndef CITY_H_
+#define CITY_H_
+
+#include <string>
+using namespace std;
+
+namespace hw09{
+//Each City has a name field.
+class City{
+public:
+	City(const string& name);
+
+	string getName() const noexcept;
+
+private:
+	const string name_;
+};
+
+
+}
+
+
+#endif /* CITY_H_ */

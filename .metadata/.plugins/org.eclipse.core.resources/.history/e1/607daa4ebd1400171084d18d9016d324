@@ -1,0 +1,26 @@
+/*
+ * Flower.h
+ *
+ *  Created on: Mar 28, 2017
+ *      Author: zeqingzhang
+ */
+
+#ifndef FLOWER_H_
+#define FLOWER_H_
+
+#include <string>
+
+namespace hw09{
+class Flower{
+public:
+	Flower(const std::string& species);
+
+	std::string getSpecies() const noexcept;
+
+
+private:
+	const std::string& species_;
+};
+
+}
+#endif /* FLOWER_H_ */

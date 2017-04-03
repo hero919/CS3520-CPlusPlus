@@ -1,0 +1,42 @@
+#ifndef MUSICIAN_MUSICIAN_H
+#define MUSICIAN_MUSICIAN_H
+
+#include <set>
+#include <string>
+#include "Person.h"
+
+namespace musician {
+
+/**
+ * A musician.  Each musician has a name.
+ * @author Ken Baclawski
+ */
+class Musician // Missing Code Part 4/6
+public:
+  /**
+   * Construct a musician.
+   */
+  Musician(/** The name of the musician. */
+           const std::string& name,
+	   /** The instrument played by the musician. */
+	   const std::string& instrument);
+
+  /**
+   * Destruct a musician.
+   */
+  virtual ~Musician();
+
+  /**
+   * Get the instrument played by the musician.
+   * @return The instrument.
+   */
+  virtual std::string getInstrument() const noexcept;
+
+private:
+  /** The instrument played by the musician. */
+  const std::string instrument_;
+};
+
+}
+
+#endif

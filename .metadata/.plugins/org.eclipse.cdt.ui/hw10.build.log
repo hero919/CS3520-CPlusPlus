@@ -1,0 +1,15 @@
+19:39:58 **** Build of configuration Debug for project hw10 ****
+make all 
+Building file: ../src/hw10.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/hw10.d" -MT"src/hw10.o" -o "src/hw10.o" "../src/hw10.cpp"
+Finished building: ../src/hw10.cpp
+ 
+Building target: hw10
+Invoking: MacOS X C++ Linker
+g++  -o "hw10"  ./src/hw10.o   
+Finished building target: hw10
+ 
+
+19:40:01 Build Finished (took 2s.199ms)
+

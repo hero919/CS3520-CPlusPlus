@@ -1,0 +1,10 @@
+#include <string>
+#include "Musician.h"
+
+using namespace std;
+using namespace musician;
+
+// Missing Code Part 6/6
+virtual std::string Musician::getInstrument() const noexcept{
+	return instrument_;
+}

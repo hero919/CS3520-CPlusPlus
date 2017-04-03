@@ -1,6 +1,6 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=macosx
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:January26,org.eclipse.launchbar.core.descriptorType.default\:January26 (1),org.eclipse.launchbar.core.descriptorType.default\:hw03,org.eclipse.launchbar.core.descriptorType.default\:January30,org.eclipse.launchbar.core.descriptorType.default\:hw04,org.eclipse.launchbar.core.descriptorType.default\:hw05,org.eclipse.launchbar.core.descriptorType.default\:hw06,org.eclipse.launchbar.core.descriptorType.default\:Febraury27,org.eclipse.launchbar.core.descriptorType.default\:March02,org.eclipse.launchbar.core.descriptorType.default\:hw07
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:hw08 (1),org.eclipse.launchbar.core.descriptorType.default\:January26,org.eclipse.launchbar.core.descriptorType.default\:January26 (1),org.eclipse.launchbar.core.descriptorType.default\:hw03,org.eclipse.launchbar.core.descriptorType.default\:January30,org.eclipse.launchbar.core.descriptorType.default\:hw04,org.eclipse.launchbar.core.descriptorType.default\:hw05,org.eclipse.launchbar.core.descriptorType.default\:hw06,org.eclipse.launchbar.core.descriptorType.default\:Febraury27,org.eclipse.launchbar.core.descriptorType.default\:March02,org.eclipse.launchbar.core.descriptorType.default\:hw07,org.eclipse.launchbar.core.descriptorType.default\:hw08,org.eclipse.launchbar.core.descriptorType.default\:March23,org.eclipse.launchbar.core.descriptorType.default\:hw09
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Febraury27/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Febraury27/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -17,3 +17,5 @@ org.eclipse.launchbar.core.descriptorType.default\:hw03/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:hw03/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:hw04/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:hw06/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:hw08\ (1)/activeLaunchMode=linuxtools
+org.eclipse.launchbar.core.descriptorType.default\:hw08/activeLaunchMode=run

@@ -1,0 +1,15 @@
+12:43:45 **** Build of configuration Debug for project March16 ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: March16
+Invoking: MacOS X C++ Linker
+g++  -o "March16"  ./src/Main.o   
+Finished building target: March16
+ 
+
+12:43:48 Build Finished (took 2s.461ms)
+

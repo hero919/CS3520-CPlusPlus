@@ -1,0 +1,84 @@
+/*
+ * Bijection.h
+ *
+ *  Created on: Mar 28, 2017
+ *      Author: zeqingzhang
+ */
+
+#ifndef BIJECTION_H_
+#define BIJECTION_H_
+
+
+#include <string>
+#include <vector>
+#include <iostream>
+#include <map>
+using namespace std;
+
+
+namespace hw09{
+// Create Template D and R
+template<class D, class R>
+class Bijection{
+public:
+	Bijection() = default;
+
+	~Bijection(){
+
+	};
+
+	void map(D object1, R object2){
+		if(!(object1 && object2)){
+			throw domain_error("One of the parameter is empty");
+		}
+		forwardMap_.insert(std::make_pair(object1, object2));
+		backwardMap_.insert(std::make_pair(object2, object1));
+	}
+
+	void forwardUnmap(D object) noexcept{
+		for(auto it= backwardMap_.begin(); it!=backwardMap_.end(); ++it){
+					if(it->second == object){
+						backwardMap_.erase(it);
+					}
+		}
+
+		if(forwardMap_.find(object) != forwardMap_.end()){
+			forwardMap_.erase(object);
+		}
+	}
+
+	void backwardUnmap(R object) noexcept{
+		for(auto it= forwardMap_.begin(); it!=forwardMap_.end(); ++it){
+			if(it->second == object){
+				forwardMap_.erase(it);
+			}
+		}
+
+		if(backwardMap_.find(object) != backwardMap_.end()){
+			backwardMap_.erase(object);
+		}
+	}
+
+	R forward(D object) noexcept{
+		if(forwardMap_.find(object) != forwardMap_.end()){
+			return forwardMap_.find(object)->second;
+		}
+		return nullptr;
+	}
+
+	D backward(R object) noexcept{
+		if(backwardMap_.find(object) != backwardMap_.end()){
+			return backwardMap_.find(object) -> second;
+		}
+		return nullptr;
+	}
+
+private:
+	std::multimap<D,R> forwardMap_;
+	std::multimap<R,D> backwardMap_;
+};
+
+}
+
+
+#endif /* BIJECTION_H_ */

@@ -1,0 +1,11 @@
+#include <string>
+#include "Person.h"
+
+using namespace std;
+using namespace musician;
+
+// Missing Code Part 5/6
+
+virtual std::string Person::getInstrument(){
+	return "Does not play instrument";
+}

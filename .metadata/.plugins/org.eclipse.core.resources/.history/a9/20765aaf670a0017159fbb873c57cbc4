@@ -1,0 +1,127 @@
+#ifndef HW04_BINARYTREE_H
+#define HW04_BINARYTREE_H
+
+#include <string>
+#include <vector>
+#include <iostream>
+
+namespace hw04 {
+
+/**
+ * A binary tree.  In this binary tree, only
+ * leaves have values, and all internal nodes have
+ * exactly two child nodes.  This structure is
+ * also known as a Lisp list.
+ *
+ * @author Ken Baclawski
+ */
+// Missing Code Part 1
+
+template<typename T>
+class BinaryTree {
+public:
+  /**
+   * Construct a leaf node.  The value is of type T
+   * (text) and a number (weight).
+   */
+  // Missing Code Part 2
+
+  /**
+   * Construct an internal node.
+   */
+  BinaryTree(/** The left child. */ const BinaryTree& left,
+	     /** The right child. */ const BinaryTree& right)
+    : children_{left, right} {}
+
+  /**
+   * The label of the node specified by a path.
+   * The directions are L and R (left and right).
+   * One can also use A and D (from the notation
+   * for lisp lists).  In lisp, the function cadr
+   * is the node obtained by applying car and cdr.
+   * In terms of binary trees, this means get the
+   * left child and then the right child.  In this
+   * function, this could be specified using the
+   * string "AD", or "LR", or "AR", and so on.
+   * @return The value of the leaf node specified
+   * by the path.  If the path ends before reaching
+   * a leaf node, then a blank is returned.
+   * @throws domain_error if the path is invalid.
+   */
+  T get
+  (/**
+    * An iterator specifying where to start the path.
+    * This iterator is incremented as each letter in
+    * the path is used.
+    */
+   std::string::iterator& start,
+   /** The iterator marking the end of the string. */
+   const std::string::iterator& end) const {
+
+    // If this is a leaf node, then return the value.
+
+    if (children_.empty()) {
+      return value_;
+    }
+
+    // If the end of the path was reached before a
+    // leaf node, then the value is empty.
+
+    if (start >= end) {
+      return T();
+    }
+
+    // Otherwise, go in the indicated direction and
+    // recurse.
+
+    char direction = *start;
+    ++start;
+    if (direction == 'A' || direction == 'L') {
+      return children_.at(0).get(start, end);
+    } else if (direction == 'D' || direction == 'R') {
+      return children_.at(1).get(start, end);
+    }
+
+    // If the direction is not valid, throw an exception.
+
+    throw std::domain_error("Invalid path");
+  }
+
+  /**
+   * Print the binary tree to an output stream.
+   */
+  void printTree(/** The output stream where the tree is to be printed. */
+                 std::ostream& out) const noexcept {
+    if (children_.empty()) {
+
+      // This is a leaf node, so show the value.
+
+      out << value_;
+    } else {
+
+      // This is an internal node, so show the child
+      // nodes recursively.
+
+      out << "(";
+      children_.at(0).printTree(out);
+      out << " ";
+      children_.at(1).printTree(out);
+      out << ")";
+    }
+  }
+
+private:
+  /** The value of a leaf node. */
+
+  // Missing Code Part 3
+
+  T value_;
+  /** The numeric value of a leaf node. */
+  const int weight_ = 0;
+  /** The children of the node. */
+  std::vector<BinaryTree> children_;
+};
+
+}
+
+#endif
