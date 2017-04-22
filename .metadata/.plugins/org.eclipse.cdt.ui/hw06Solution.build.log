@@ -1,0 +1,25 @@
+17:56:55 **** Build of configuration Debug for project hw06Solution ****
+make all 
+Building file: ../src/BinaryTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/BinaryTree.d" -MT"src/BinaryTree.o" -o "src/BinaryTree.o" "../src/BinaryTree.cpp"
+Finished building: ../src/BinaryTree.cpp
+ 
+Building file: ../src/Huffman.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Huffman.d" -MT"src/Huffman.o" -o "src/Huffman.o" "../src/Huffman.cpp"
+Finished building: ../src/Huffman.cpp
+ 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: hw06Solution
+Invoking: MacOS X C++ Linker
+g++  -o "hw06Solution"  ./src/BinaryTree.o ./src/Huffman.o ./src/Main.o   
+Finished building target: hw06Solution
+ 
+
+17:56:57 Build Finished (took 2s.413ms)
+

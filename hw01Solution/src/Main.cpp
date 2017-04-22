@@ -1,0 +1,75 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+/**
+ * @namespace hw01 Read lines from standard input.  Break them up into
+ * sentences and print them.  A sentence is a string that ends with one of
+ * these punctuation marks: period, question mark or exclamation point.  If
+ * there are no sentences, then return the exit status 1.  Otherwise, the exit
+ * status is 0.
+ *
+ * @author Ken Baclawski
+ */
+
+/**
+ * Main program for hw01.  Break up the standard input into sentences.
+ * @return The exit status.  Normal status is 0.  If there are no sentences,
+ * then the status is 1.
+ */
+int main() {
+
+  // The current string of sentences.
+
+  string sentences;
+
+  // Keep track of the number of sentences printed.
+
+  int numberOfSentences = 0;
+
+  // Read all of the input lines.
+
+  for (;;) {
+    string line;
+    getline(cin, line);
+    if (!cin) {
+      break;
+    }
+
+    // Concatenate the line with the current string of sentences.
+
+    sentences = sentences  + line;
+
+    // Print all sentences.
+
+    int i = 0;
+    for (unsigned int j = 0; j < sentences.length(); ++j) {
+      char c = sentences.at(j);
+      if (c == '.' || c == '?' || c == '!') {
+
+	// Print the sentence.
+
+	cout << sentences.substr(i, j - i + 1) << endl;
+	numberOfSentences++;
+
+	// The next sentence starts after the end of the last one.
+
+	i = j + 1;
+      }
+    }
+
+    // Replace sentences with the unused chararacters.
+
+    sentences = sentences.substr(i);
+  }
+
+  // Determine the correct return status code.
+  // This could also be written like this:
+  // return numberOfSentences == 0? 1 : 0;
+
+  if (numberOfSentences == 0) {
+    return 1;
+  } else {
+    return 0;
+  }
+}

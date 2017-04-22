@@ -1,0 +1,15 @@
+12:17:28 **** Incremental Build of configuration Debug for project hw01Solution ****
+make all 
+Building file: ../src/Main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.cpp"
+Finished building: ../src/Main.cpp
+ 
+Building target: hw01Solution
+Invoking: MacOS X C++ Linker
+g++  -o "hw01Solution"  ./src/Main.o   
+Finished building target: hw01Solution
+ 
+
+12:17:29 Build Finished (took 497ms)
+

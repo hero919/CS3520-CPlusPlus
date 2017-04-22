@@ -5770,3 +5770,89 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-04-03 19:39:04.185
 !MESSAGE Indexed 'hw10' (1 sources, 179 headers) in 12.2 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-04-05 16:37:28.323
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-04-05 16:37:28.327
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+!SESSION 2017-04-17 16:15:29.639 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/zeqingzhang/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/zeqingzhang/.eclipse_keyring
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.791
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.ui.PackageExplorer' id and the 'Package Explorer' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.810
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.ui.TypeHierarchy' id and the 'Type Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.811
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.ui.ProjectsView' id and the 'Projects' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.812
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.ui.PackagesView' id and the 'Packages' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.812
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.ui.TypesView' id and the 'Types' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.813
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.ui.MembersView' id and the 'Members' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.814
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.callhierarchy.view' id and the 'Call Hierarchy' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.815
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.ui.SourceView' id and the 'Declaration' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.816
+!MESSAGE Removing part descriptor with the 'org.eclipse.jdt.ui.JavadocView' id and the 'Javadoc' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2017-04-17 16:16:04.817
+!MESSAGE Removing part descriptor with the 'org.eclipse.linuxtools.man.views.ManView' id and the 'Man Page' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+!SESSION 2017-04-20 12:04:32.917 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/zeqingzhang/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/zeqingzhang/.eclipse_keyring
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 12:06:34.671
+!MESSAGE Indexed 'hw01Solution' (1 sources, 179 headers) in 9.54 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-04-20 12:17:28.404
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-04-20 12:17:28.407
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 12:18:57.249
+!MESSAGE Indexed 'hw02Solution' (1 sources, 0 headers) in 0.006 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 12:26:29.339
+!MESSAGE Indexed 'hw03Solution' (1 sources, 179 headers) in 5.52 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 12:31:11.498
+!MESSAGE Indexed 'hw04Solution' (1 sources, 179 headers) in 4.37 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 12:42:40.833
+!MESSAGE Indexed 'hw05Solution' (1 sources, 179 headers) in 4.29 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 17:51:06.294
+!MESSAGE Indexed 'hw06Solution' (1 sources, 179 headers) in 5.08 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 18:12:56.802
+!MESSAGE Indexed 'hw07Solution' (1 sources, 179 headers) in 4.89 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 18:17:20.382
+!MESSAGE Indexed 'hw08Solution' (1 sources, 179 headers) in 4.23 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 18:19:45.239
+!MESSAGE Indexed 'hw09Solution' (1 sources, 179 headers) in 4.28 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-04-20 18:30:42.207
+!MESSAGE Indexed 'hw10Solution' (1 sources, 179 headers) in 3.18 sec: 22,815 declarations; 46,326 references; 0 unresolved inclusions; 11 syntax errors; 84 unresolved names (0.12%)
