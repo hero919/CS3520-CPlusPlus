@@ -38,12 +38,17 @@ int main() {
 
     // Add the musicians to the bands.
 
-    // Fill in the missing code.
+    who.add(alice);
+    who.add(john);
+    who.add(ringo);
+
+    what.add(alice);
+    what.add(madonna);
 
     // Print the bands.
 
-    // Fill in the missing code.
-
+    who.print(cout);
+    what.print(cout);
   } catch (const exception& e) {
 
     // Show any exception that is thrown

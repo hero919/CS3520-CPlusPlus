@@ -15,7 +15,7 @@ using namespace hw09;
 City::City(const string& name)
   : name_(name) {}
 
-string City::getName() const noexcept {
+string City::getName()  noexcept {
   return name_;
 }
 

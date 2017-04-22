@@ -1,6 +1,12 @@
-18:36:25 **** Incremental Build of configuration Debug for project hw10Solution ****
+14:50:46 **** Incremental Build of configuration Debug for project hw05Solution ****
 make all 
-make: Nothing to be done for `all'.
-18:36:34 **** Incremental Build of configuration Debug for project hw10Solution ****
-make all 
-make: Nothing to be done for `all'.
+Building file: ../src/BinaryTree.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++11 -MMD -MP -MF"src/BinaryTree.d" -MT"src/BinaryTree.o" -o "src/BinaryTree.o" "../src/BinaryTree.cpp"
+Finished building: ../src/BinaryTree.cpp
+ 
+Building target: hw05Solution
+Invoking: MacOS X C++ Linker
+g++  -o "hw05Solution"  ./src/BinaryTree.o ./src/Huffman.o ./src/Main.o   
+Finished building target: hw05Solution
+ 
